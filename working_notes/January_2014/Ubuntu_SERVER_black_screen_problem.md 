@@ -1,0 +1,22 @@
+**Ubuntu_SERVER_black_screen_problem**
+
+The problem is with monitor dipslay for Ubuntu 12.04 server headless is showing a black screen, however with this state the SSH can be done and all the functionality will work with out any problem. another problem is through SSH, reboot will not work, it will stuck on GRUB menu after reboot, the physical machine has to be approached to press enter to start the session. 
+
+SERVER CODE executed after this is
+sudo apt-get upgrade grub
+
+Reference
+```
+http://askubuntu.com/questions/272503/ubuntu-12-04-boots-into-black-blank-screen
+http://serverfault.com/questions/243343/headless-ubuntu-server-machine-sometimes-stuck-at-grub-menu
+http://lani78.wordpress.com/2012/07/19/change-to-static-ip-on-the-ubuntu-precise-pangolin-server/
+have to look into fstab and bootloading mind these links
+http://ubuntuforums.org/showthread.php?t=2014700
+http://askubuntu.com/questions/121008/server-boots-to-grub-prompt-after-reboot
+http://serverfault.com/questions/243343/headless-ubuntu-server-machine-sometimes-stuck-at-grub-menu
+http://askubuntu.com/questions/164926/how-to-make-hdds-mount-at-startup-in-ubuntu-12-04
+http://askubuntu.com/questions/248986/ubuntu-12-04-lts-no-longer-able-to-boot-normally
+https://help.ubuntu.com/community/BinaryDriverHowto/ATI
+https://wiki.ubuntu.com/DebuggingKernelBoot
+http://askubuntu.com/questions/137655/boot-up-fails-drops-to-initramfs-prompt-12-04
+```
