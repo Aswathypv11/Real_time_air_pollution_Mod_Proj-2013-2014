@@ -1,4 +1,5 @@
- **Store json data into Mysql using python**
+ **Store_json_data_into_Mysql_using_python**
+
 Web services APIs such as weather underground data provided in json format is stored in Mysql table using this python script.
 
 It is based on stack overflow answers

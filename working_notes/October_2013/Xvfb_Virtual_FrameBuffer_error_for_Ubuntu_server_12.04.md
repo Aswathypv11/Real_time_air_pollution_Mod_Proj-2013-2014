@@ -1,5 +1,6 @@
- **Xvfb – the X Virtual FrameBuffer error for Ubuntu server 12.04**
-Frame buffer is the hardware portion in memory to provide display. X window systems are the the basic display setup for computers, remember in computer every display is organized as bitmap windows. In head less Ubuntu servers virtual framebuffers are used for the application which specifically requires the display such as Firefox or other browsers.
+ **Xvfb_Virtual_FrameBuffer_error_for_Ubuntu_server_12.04**
+
+Frame buffer is a hardware portion in memory to provide display. X window systems are the the basic display setup for computers, remember in computer every display is organized as bitmap windows. In head less Ubuntu servers virtual framebuffers are used for the application which specifically requires the display such as Firefox or other browsers.
 Xvfb is provides virtual display for those application. In Ubuntu headless server (server without any GUI) I installed for mainly running Selenium scripts which requires browser to run and browser requires display. It is installed in Ubuntu 12.04 following this
 http://www.installationpage.com/selenium/how-to-run-selenium-headless-firefox-in-ubuntu/
 and followed the commands

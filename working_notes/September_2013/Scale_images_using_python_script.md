@@ -1,6 +1,6 @@
- **Scale images using python script**
+ **Scale_images_using_python_script**
 
-For scaling jpeg image files in bulk, there is a python script from this link
+* For scaling jpeg image files in bulk, there is a python script from this link
 
 http://united-coders.com/christian-harms/image-resizing-tips-every-coder-should-know/
  
@@ -13,7 +13,7 @@ for filename in sys.argv[1:]:
     finally:
         out.close()
 
- It is only some 8 lines of code, but doing huge job. Another important think to learn is use of finding and regex to feed the files into python script. This is the find and python feeder code to make the script work on all the files inside a directory.
+* It is only some 8 lines of code, but doing huge job. Another important think to learn is use of finding and regex to feed the files into python script. This is the find and python feeder code to make the script work on all the files inside a directory.
 
 find . -regex .*jpg | xargs python resize.py
 

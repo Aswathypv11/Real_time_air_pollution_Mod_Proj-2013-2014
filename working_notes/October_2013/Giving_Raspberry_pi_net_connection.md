@@ -1,4 +1,5 @@
- **Giving Raspberry pi net connection**
+ **Giving_Raspberry_pi_net_connection**
+
 The static IP address addition on SD card seems not connecting RPi (Raspberry Pi) to Internet (1)
 
 1. Possible way is DHCP was removed and static is invoked
@@ -55,7 +56,7 @@ Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
 
 
 References:
-1, http://raspberrypi.stackexchange.com/questions/7624/setting-a-static-eth0-ip
+1. http://raspberrypi.stackexchange.com/questions/7624/setting-a-static-eth0-ip
 2. http://raspberrypi.stackexchange.com/questions/7146/static-local-ip-gateway-config-on-startup-issues
 3. http://www.soslug.org/wiki/getting_your_raspberry_pi_to_run_on_a_static_ip_with_internet
 4. http://www.penguintutor.com/linux/raspberrypi-webserver
