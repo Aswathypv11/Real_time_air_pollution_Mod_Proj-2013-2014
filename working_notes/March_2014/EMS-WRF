@@ -1,1 +1,25 @@
-push 
+
+ EMS-WRF Coimbatore region
+
+EMS WRF OF COIMBATORE REGION USING 4 DOMAINS :-  
+Five simple steps required for the execution of EMS (Environmental modeling system) WRF.
+Step 1: Create a computational domain with the Domain Wizard(DW) GUI
+                 After the successful installation of EMS follow these steps, 
+
+a) Start the DW by executing the command "dwiz" in terminal .
+b) DW window should appear and gives you an opportunity to select from creating a new domain or  modifying existing domain. Current run directory also shown in this window.
+c) Select "Create new Domain" and then "Continue" button.
+d) "Name your domain challenge window" should appear and give name to your Domain. Name of domain should be in lower case characters without any spaces. Example : cbrwrf. This will create a new directory cbrwrf underneath wrfems/runs/cbrwrf.
+e) Click on "Continue" button to move on to the "Horizontal Editor" window.
+f) The Horizontal Editor window allows you to define a model domain by drawing a bounding
+box on a map . You can edit the “Centerpoint Lon = 77.03 “and “Centerpoint Lat =11.03 “in Projection Options  to get our exact region of interest( Coimbatore).
+g) On the right side of window, in Domain menu map section allows to change the “Scale = 12.5%” and “Center = Over 180 degrees longitude ” . In Projection Options (degrees) change the “Type = Lambert Conformal”. You can change the grid points in X & Y directions and resolution of geographic data in Grid options.
+h) Click on “Update Map” , this will create a primary domain of our region.
+i) Nested domain configuration can be achieved by selecting “Nests” menu. Here you can create new nested domains or edit/delete existing ones .
+j) To create a new sub-domain, simply click on the “New” button to bring up the “New Nest” configuration window. Here Nest properties section allows you to edit the parent ID, Grid spacing ratio to parent, Geographic data resolution and Nest coordinates defines the coordinates of particular domain.
+k) Created 4 domains to stimulate Coimbatore region with 1KM resolution.
+l) Click on “Next” button to run the Localization in Run Preprocessors window. Localization serves to extract the terrestrial data over the area covered by the domain(s) from the large global files at the resolution(s) that you specified during your domain creation .
+m) Click on “Localize Domain”.
+n) After successful execution geogrid created 4 output files such as geo.em.d01.nc , geo.em.d02.nc , geo.em.d03.nc , geo.em.d04.nc. These files will reside in wrfems/runs/cbrwrf/static.
+o) Click on “Next “ button and select each domain to visualize the outputs by clicking on “view in  panoply”. You should get a dataset window and double click on any dataset to display.
+p) Click “ Exit ” when work done.
