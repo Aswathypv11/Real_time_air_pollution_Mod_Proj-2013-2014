@@ -2,6 +2,7 @@
 
 EMS WRF OF COIMBATORE REGION USING 4 DOMAINS :-  
 Five simple steps required for the execution of EMS (Environmental modeling system) WRF.
+
 Step 1: Create a computational domain with the Domain Wizard(DW) GUI
                  After the successful installation of EMS follow these steps, 
 
