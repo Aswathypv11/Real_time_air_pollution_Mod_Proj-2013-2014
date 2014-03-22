@@ -37,7 +37,6 @@ contains all the model physics settings for your simulation. If your grid spacin
 
 
 
-EMS WRF OF COIMBATORE REGION USING 4 DOMAINS :-  
 Step 3 : Processing your Initialization data
 
 a)This step assumes that you have an internet connection so you can access the initialization data 
@@ -55,7 +54,8 @@ Or 		% ems_prep –dset gfsptiles –domains 4  (this will automatically activat
 c) Domain 1 is the parent of all domains and is always included by default.
 d) Check wrfems/runs/cbrwrf/wpsprd , all the WRF intermediate files are located here.
 
-EMS WRF OF COIMBATORE REGION USING 4 DOMAINS :-  
+
+ 
 Step 4 : Running your Simulation 
 
 a) Change your directory to wrfems/runs/cbrwrf , and run the following command
@@ -63,7 +63,6 @@ a) Change your directory to wrfems/runs/cbrwrf , and run the following command
 b) For nested domains , run the command 
 		% ems_run –domains 2,3,4
 c) Output files will reside in wrfems/runs/cbrwrf/wrfprd 
-
 
 
 
