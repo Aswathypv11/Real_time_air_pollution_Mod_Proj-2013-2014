@@ -1,0 +1,6 @@
+"""HISTORY_INTERVAL (NESTED) specifies the frequency, in minutes, of model  forecast output for each domain. For example, HISTORY_INTERVAL = 60, is
+   hourly; HISTORY_INTERVAL = 30 is every 30 minutes.
+   
+""" You can change HISTORY_INTERVAL by editing Domain name/conf/ems_run/run_wrfout.conf file
+
+""" Give HISTORY_INTERVAL = 60,60,60,60 for domains 1,2,3,4
