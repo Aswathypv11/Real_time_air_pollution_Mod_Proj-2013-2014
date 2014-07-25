@@ -21,6 +21,7 @@ ems_prep –dset fnl –date 20140301 –local –analysis –cycle 00 –domian
 
 ""finally run 
 ems_run –domains 2,3,4
+"" Simulation time is 1 hour 38 minutes 45 seconds
 
 Simulation 2:
 
@@ -29,4 +30,25 @@ Simulation 2:
 	BL-PBL-PHYSICS = 2,2,2,2 (MYJ)
 	SF_SFCLAY_PHYSICS = 4  (QNSE)
 	SF_SURFACE_PHYSICS = 2,2,2,2 (Noah)
+	
+"" 	
+Simulation time is 1 hour 38 minutes 47 seconds
+Simulation 3:
+	
+	CU_PHYSICS = 1,1,1,1   ( Kain-Fritsch (1))
+     	MP_PHYSICS = 2,2,2,2   (Lin)
+	BL-PBL-PHYSICS = 7,7,7,7 (ACM2)
+	SF_SFCLAY_PHYSICS = 7 (Pleim)
+	SF_SURFACE_PHYSICS = 7,7,7,7 (Pleim)
+""simulation time is 1 hour  42 minute 57 seconds.
 
+SIMULATION 4:
+
+
+	CU_PHYSICS = 1,1,1,1   ( Kain-Fritsch (1))
+     	MP_PHYSICS = 2,2,2,2   (Lin)
+	BL-PBL-PHYSICS =1,1,1,1  (YSU)
+	SF_SFCLAY_PHYSICS = 11 (MM5)
+	SF_SURFACE_PHYSICS = 2,2,2,2 (Noah)
+
+Simulation time is 1 hour 48 minutes 38 seconds
