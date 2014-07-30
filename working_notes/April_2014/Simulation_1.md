@@ -2,7 +2,7 @@
 
 
 1.*cd home/hoopoe/wrfems/wrfems/runs/cbe_h1* 
-...Modify parameters in cbe_h1/conf/ems_run/run_physics.conf_
+...Modify parameters in cbe_h1/conf/ems_run/run_physics.conf_ ...
 ''Parameters are CUMULUS , MICROPHYSICS , PLANETARY BOUNDARY LAYER ,  SURFACE LAYER, LAND SURFACE PHYSICS Schemes
 		
 		CU_PHYSICS = 1,5,5,5 ( Kain-Fritsch (1), grell-3D(5))
