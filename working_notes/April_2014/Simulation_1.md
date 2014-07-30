@@ -1,3 +1,6 @@
+#### EMS wRF modelling over Coimbatore region by modifying some physical parameters
+
+
 ''cd home/hoopoe/wrfems/wrfems/runs/cbe_h1
 ''Modify parameters in cbe_h1/conf/ems_run/run_physics.conf
 ''Parameters are CUMULUS , MICROPHYSICS , PLANETARY BOUNDARY LAYER ,  SURFACE LAYER, LAND SURFACE PHYSICS Schemes
