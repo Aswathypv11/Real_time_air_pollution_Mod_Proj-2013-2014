@@ -4,12 +4,14 @@ After creating computational domain for coimbatore region in domain wizard GUI(d
 
 	cd home/hoopoe/wrfems/wrfems/runs/cbe_h1* 
 
->Modify parameters in cbe_h1/conf/ems_run/run_physics.conf_ 
+To Modify physical parameters of current domain, go to this directory
 
->Parameters are CUMULUS , MICROPHYSICS , PLANETARY BOUNDARY LAYER ,  SURFACE LAYER, LAND SURFACE PHYSICS Schemes ...
+	cbe_h1/conf/ems_run/run_physics.conf_ 
+
+Physical Parameters to be modified are CUMULUS , MICROPHYSICS , PLANETARY BOUNDARY LAYER ,  SURFACE LAYER, LAND SURFACE PHYSICS Schemes 
 		
 		CU_PHYSICS = 1,5,5,5 ( Kain-Fritsch (1), grell-3D(5))
-    MP_PHYSICS = 2,2,2,2 (Lin)
+    		MP_PHYSICS = 2,2,2,2 (Lin)
 		BL-PBL-PHYSICS = 2,2,2,2 (MYJ)
 		SF_SFCLAY_PHYSICS = 4 (QNSE)
 		SF_SURFACE_PHYSICS = 2,2,2,2 (Noah)
