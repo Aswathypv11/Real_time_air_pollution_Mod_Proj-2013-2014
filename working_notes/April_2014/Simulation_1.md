@@ -1,4 +1,4 @@
-#### EMS wRF modelling over Coimbatore region by modifying some physical parameters
+#### EMS WRF modelling over Coimbatore region by modifying some physical parameters
 
 After creating computational domain for coimbatore region in domain wizard GUI(dwiz), this will create new folder having computaional domain name and along with all the configurations files  or directories. however, the current directory is  
 
@@ -18,17 +18,17 @@ Physical Parameters to be modified are CUMULUS , MICROPHYSICS , PLANETARY BOUNDA
 
 Time took for simulation is 1 hour 38 minutes 45 seconds
 
-Namelist.wps :
+##Namelist.wps :
 
-&share
- wrf_core                   = 'ARW'
- max_dom                    = 4
- start_date                 = '2014-03-01_00:00:00', '2014-03-01_00:00:00', '2014-03-01_00:00:00', '2014-03-01_00:00:00'
- end_date                   = '2014-03-01_06:00:00', '2014-03-01_00:00:00', '2014-03-01_00:00:00', '2014-03-01_00:00:00'
- interval_seconds           = 21600
- io_form_geogrid            = 2
- opt_output_from_geogrid_path = '/home/hoopoe/wrfems/wrfems/runs/cbe_h1/static/'
- debug_level                = 0
+	&share
+	 wrf_core                   = 'ARW'
+ 	max_dom                    = 4
+ 	start_date                 = '2014-03-01_00:00:00', '2014-03-01_00:00:00', '2014-03-01_00:00:00', '2014-03-01_00:00:00'
+ 	end_date                   = '2014-03-01_06:00:00', '2014-03-01_00:00:00', '2014-03-01_00:00:00', '2014-03-01_00:00:00'
+ 	interval_seconds           = 21600
+ 	io_form_geogrid            = 2
+ 	opt_output_from_geogrid_path = '/home/hoopoe/wrfems/wrfems/runs/cbe_h1/static/'
+ 	debug_level                = 0
 /
 
 &geogrid
