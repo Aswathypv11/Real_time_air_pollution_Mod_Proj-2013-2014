@@ -1,9 +1,11 @@
 #### EMS wRF modelling over Coimbatore region by modifying some physical parameters
 
 After creating computational domain for coimbatore region in domain wizard(dwiz), this will create new folder having computaional domain name and along with all the configurations files  or directories. however, the current directory is  
-..*cd home/hoopoe/wrfems/wrfems/runs/cbe_h1* 
-...Modify parameters in cbe_h1/conf/ems_run/run_physics.conf_ ...
-...Parameters are CUMULUS , MICROPHYSICS , PLANETARY BOUNDARY LAYER ,  SURFACE LAYER, LAND SURFACE PHYSICS Schemes ...
+	cd home/hoopoe/wrfems/wrfems/runs/cbe_h1* 
+
+>Modify parameters in cbe_h1/conf/ems_run/run_physics.conf_ 
+
+>Parameters are CUMULUS , MICROPHYSICS , PLANETARY BOUNDARY LAYER ,  SURFACE LAYER, LAND SURFACE PHYSICS Schemes ...
 		
 		CU_PHYSICS = 1,5,5,5 ( Kain-Fritsch (1), grell-3D(5))
     MP_PHYSICS = 2,2,2,2 (Lin)
