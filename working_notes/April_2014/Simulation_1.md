@@ -16,9 +16,9 @@ Physical Parameters to be modified are CUMULUS , MICROPHYSICS , PLANETARY BOUNDA
 		SF_SFCLAY_PHYSICS = 4 (QNSE)
 		SF_SURFACE_PHYSICS = 2,2,2,2 (Noah)
 
-''Simulation time is 1 hour 38 minutes 45 seconds
+Time took for simulation is 1 hour 38 minutes 45 seconds
 
-''Namelist.wps :
+Namelist.wps :
 
 &share
  wrf_core                   = 'ARW'
