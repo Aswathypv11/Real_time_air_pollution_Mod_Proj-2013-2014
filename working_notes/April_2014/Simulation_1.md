@@ -1,4 +1,4 @@
-###### EMS WRF modelling over Coimbatore region by modifying some physical parameters
+# EMS WRF modelling over Coimbatore region by modifying some physical parameters
 
 After creating computational domain for coimbatore region in domain wizard GUI(dwiz), this will create new folder having computaional domain name and along with all the configurations files  or directories. however, the current directory is  
 
