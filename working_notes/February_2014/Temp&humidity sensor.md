@@ -1,6 +1,6 @@
 ## Temp.& Humidity sensor  
 
-downloaded and installed python packages to run temp. sensor DHT 1307
+downloaded and installed python packages to run temp. sensor DHT 1307 from this link [https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/software-install-updated]
 
       cd Adafruit-Raspberry-Pi-Python-Code-master/Adafruit_DHT_Driver 
       run  sudo ./Adafruit_DHT 11 4
