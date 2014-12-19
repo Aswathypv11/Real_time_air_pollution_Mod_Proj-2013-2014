@@ -20,7 +20,7 @@ To verify the wiring of RTC, run this command
   
           i2cdetect -y 1
           
-Output will be in the format, 
+output will get like this 
   
        		 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 	00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -32,8 +32,6 @@ Output will be in the format,
 	60: -- -- -- -- -- -- -- -- UU -- -- -- -- -- -- -- 
 	70: -- -- -- -- -- -- -- --        
 
-once have the kernel driver driving ,i2cdetect will skip over 0*68 and disply UU instead, this means its working!!!!!
+'' once u have the kernel driver driving ,i2cdetect will skip over 0*68 and disply UU instead, this means its working!!!!!
  
-Reference links [https://learn.adafruit.com/downloads/pdf/adding-a-real-time-clock-to-raspberry-pi.pdf],[
-
  
